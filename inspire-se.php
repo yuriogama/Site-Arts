@@ -4,7 +4,7 @@
 <section id="page-inspire">
     <section class="banner-principal">
         <div class="banner-desk only-desk">
-            <img src="/wp-content/uploads/2022/02/Banner-Inspire.png" alt="Imagem principal página">
+            <img src="/wp-content/uploads/2022/02/Banner-INSPIRE.png" alt="Imagem principal página">
         </div>
 
         <div class="text-banner">

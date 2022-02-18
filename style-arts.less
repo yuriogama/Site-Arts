@@ -418,11 +418,11 @@ body.home {
                 justify-content: space-around;
 
                 li:hover {
-                    margin-bottom: 10em;
+                    margin-bottom: 33em;
 
                     a {
                         img {
-                            margin-bottom: -7em;
+                            margin-bottom: -30em;
                             transition: all 0.5s;
                             filter: brightness(45%);
                         }
@@ -474,6 +474,10 @@ body.home {
                         font-size: 16px;
                         position: relative;
                         z-index: 999;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        margin-bottom: 0;
+                        max-width: 400px;
                     }
                 }
             }
@@ -533,11 +537,11 @@ body.home {
                 justify-content: space-around;
 
                 li:hover {
-                    margin-bottom: 10em;
+                    margin-bottom: 33em;
 
                     a {
                         img {
-                            margin-bottom: -7em;
+                            margin-bottom: -30em;
                             transition: all 0.5s;
                             filter: brightness(45%);
                         }
@@ -588,6 +592,10 @@ body.home {
                         font-size: 16px;
                         position: relative;
                         z-index: 999;
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        margin-bottom: 0;
+                        max-width: 400px;
                     }
                 }
             }
@@ -599,30 +607,39 @@ body.oquefazemos {
     background: #fedb03;
 
     #page-fazemos {
+        .banner-principal {
+            .banner-desk {
+                img {
+                    padding-left: 12%;
+                }
+            }
+        }
+
         .page {
-            margin: 4em 0px;
+            margin-top: 6em;
+            padding-bottom: 6em;
+            background: #ffffff;
 
             .first.text-post {
                 gap: 2em;
                 display: flex;
-                margin: 0px 10%;
+                margin: 0px 10.4%;
                 padding-top: 5em;
-                border-top: 2px solid;
-                justify-content: center;
+                justify-content: space-between;
 
                 .first-texts {
-                    width: 65%;
-                    font-size: 20px;
-                    padding-right: 5em;
+                    width: 50%;
+                    font-size: 25px;
                     padding-left: 1em;
                     display: flex;
                     color: #6e6e6e;
                     flex-direction: column;
-                    gap: 2em;
+                    gap: 1em;
                 }
 
                 .first-post {
-                    width: 35%;
+                    width: 34%;
+                    margin-top: -9em;
 
                     .part-post {
                         h2 {
@@ -640,11 +657,11 @@ body.oquefazemos {
                             justify-content: space-around;
 
                             li:hover {
-                                margin-bottom: 10em;
+                                margin-bottom: 33em;
 
                                 a {
                                     img {
-                                        margin-bottom: -7em;
+                                        margin-bottom: -30em;
                                         transition: all 0.5s;
                                         filter: brightness(45%);
                                     }
@@ -696,18 +713,23 @@ body.oquefazemos {
                                     font-size: 16px;
                                     position: relative;
                                     z-index: 999;
+                                    margin-top: 10px;
+                                    margin-left: 10px;
+                                    margin-bottom: 0;
+                                    max-width: 400px;
                                 }
                             }
                         }
                     }
 
                     .part-text-button {
-                        max-width: 40%;
+                        max-width: 50%;
+                        margin-left: 15px;
 
                         .texts {
                             color: black;
-                            font-size: 18px;
-                            font-weight: 400;
+                            font-size: 20px;
+                            font-weight: bold;
                         }
 
                         button:hover {
@@ -751,11 +773,18 @@ body.oquefazemos {
                 }
 
                 .texts {
-                    gap: 2em;
+                    gap: 4em;
                     display: flex;
                     flex-direction: column;
 
-                    p {
+                    .title {
+                        font-size: 32px;
+                        color: #d60a84;
+                        font-weight: bold;
+                        text-align: justify;
+                    }
+
+                    .descr {
                         color: #6e6e6e;
                         font-size: 18px;
                         text-align: justify;
@@ -902,6 +931,8 @@ body.inspire-se {
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-bottom: 7em;
+            margin-top: 10em;
 
             .banner-desk {
                 width: 57%;
@@ -921,7 +952,7 @@ body.inspire-se {
 
         .page {
             .inspire {
-                max-width: 1800px;
+                max-width: 1700px;
                 margin: auto;
 
                 h2 {
@@ -938,11 +969,11 @@ body.inspire-se {
                     justify-content: space-around;
 
                     li:hover {
-                        margin-bottom: 10em;
+                        margin-bottom: 33em;
 
                         a {
                             img {
-                                margin-bottom: -7em;
+                                margin-bottom: -30em;
                                 transition: all 0.5s;
                                 filter: brightness(45%);
                             }
@@ -975,7 +1006,7 @@ body.inspire-se {
                             margin-top: 10px;
                             margin-left: 10px;
                             margin-bottom: 0;
-                            max-width: 420px;
+                            max-width: 400px;
 
                             a {
                                 color: #0773aa;
@@ -989,13 +1020,99 @@ body.inspire-se {
 
                         .rpwe-summary {
                             color: black;
-                            margin-left: 10px;
                             font-weight: bold;
                             font-size: 16px;
                             position: relative;
                             z-index: 999;
+                            margin-top: 10px;
+                            margin-left: 10px;
+                            margin-bottom: 0;
+                            max-width: 400px;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+//CSS PÁGINA POSTS 
+body.post-template-default {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif !important;
+
+    #page-posts {
+        figure {
+            margin: auto !important;
+        }
+
+        .banner-principal.CASES {
+            .banner-desk {
+                position: relative;
+                left: 25em;
+            }
+        }
+
+        .banner-principal {
+            gap: 10em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 7em;
+            margin-top: 10em;
+
+            .banner-desk {
+                width: 57%;
+            }
+
+            .text-banner {
+                width: 43%;
+
+                p {
+                    color: #000000;
+                    font-weight: bold;
+                    font-size: 30px;
+                    width: 400px;
+                }
+            }
+        }
+
+        .post {
+            .entry-header {
+                padding: 0;
+
+                h1.entry-title {
+                    color: #b0119a;
+                    font-weight: 600;
+                    font-size: 29px;
+                }
+            }
+        }
+
+        .category-inspire {
+            .entry-content {
+                .wp-block-group {
+                    margin: 3em auto;
+                    max-width: 950px;
+
+                    p {
+                        max-width: none;
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: #7e807f;
+                        text-align: justify;
+                    }
+                }
+
+                .wp-block-gallery {
+                    gap: 2em;
+                    display: flex;
+                    flex-wrap: nowrap;
                 }
             }
         }
