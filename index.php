@@ -29,36 +29,81 @@ get_header();
         </div>
     </section>
 
-    <section class="box-mid-information">
-        <div class="box-left">
-            <div class="texts">
-                <span class="first">
-                    É um Projeto <br />
-                    de Design de embalagem <br />
-                    que sua empresa precisa?
-                </span>
+    <section class="box-mid-strip">
+        <div class="container strip">
+            <div class="item first">
+                <div class="number-plus">
+                    <div class="plus">
+                        +
+                    </div>
+                    <div class="number">
+                        <p> 1000 </p>
+                    </div>
+                </div>
 
-                <span class="second">
-                    Ou é uma <br />
-                    estratégia <br />
-                    online de vendas?
-                </span>
+                <div class="text">
+                    <p> projetos de embalagens </p>
+                </div>
+            </div>
 
-                <span class="third">
-                    Ou é algo ainda <br />
-                    mais personalizado?
-                </span>
+            <div class="item second">
+                <div class="number-plus">
+                    <div class="plus">
+                        +
+                    </div>
+
+                    <div class="number">
+                        <p> 500 </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p> clientes atendidos </p>
+                </div>
+            </div>
+
+            <div class="item third">
+                <div class="number-plus">
+                    <div class="plus">
+                        +
+                    </div>
+
+                    <div class="number">
+                        <p> 20 </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p> anos de experiência </p>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="box-rigth">
-            <div class="texts-button">
+    <section class="box-mid-information">
+        <div class="box-first">
+            <div class="texts">
+                <p class="first">
+                    É um Projeto de Design de embalagem que sua empresa precisa?
+                </p>
+
+                <p class="second">
+                    Ou é uma estratégia online de vendas?
+                </p>
+
+                <p class="third">
+                    Ou é algo ainda mais personalizado?
+                </p>
+            </div>
+        </div>
+        <div class="box-second">
+            <div class="texts">
                 <p class="title"> Fale com a Gente </p>
-                <p class="descr"> QUE VAMOS DAR UM TOQUE DE ESTRATÉGIA, RESULTADO E ARTS NOS SEUS PROJETOS</p>
+                <p class="descr">
+                    QUE VAMOS DAR UM TOQUE DE ESTRATÉGIA, RESULTADO E ARTS NOS SEUS PROJETOS
+                </p>
+            </div>
 
-                <button class="button">
-                    <a href="#"> clique aqui </a>
-                </button>
+            <div class="buttons">
+                <button><a href="/contato"> CLIQUE AQUI </a></button>
             </div>
         </div>
     </section>
@@ -96,6 +141,12 @@ get_header();
 
     <section class="box-inspire-categoria">
         <?php dynamic_sidebar('categoria-inspire-home'); ?>
+    </section>
+
+    <section class="box-banner-carrossel">
+        <div class="carrossel only-desk">
+            <?php dynamic_sidebar( 'banner-home-carrossel-desk' ); ?>
+        </div>
     </section>
 
     <section class="box-newsletter">

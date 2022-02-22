@@ -4,11 +4,61 @@
 <section id="page-fazemos">
     <section class="banner-principal">
         <div class="banner-desk only-desk">
-            <img src="/wp-content/uploads/2022/02/banner-oque-fazemos2.png" alt="Imagem prinncipal página">
+            <img src="/wp-content/uploads/2022/02/banner-oque-fazemos-new.png" alt="Imagem prinncipal página">
         </div>
 
         <div class="banner-mobile only-mobile">
             <!-- <img src="/wp-content/uploads/2022/02/Banner-home-principal-desk.png" alt="Imagem prinncipal página"> -->
+        </div>
+    </section>
+
+
+    <section class="box-mid-strip">
+        <div class="container strip">
+            <div class="item first">
+                <div class="number-plus">
+                    <div class="plus">
+                        +
+                    </div>
+                    <div class="number">
+                        <p> 1000 </p>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p> projetos de embalagens </p>
+                </div>
+            </div>
+
+            <div class="item second">
+                <div class="number-plus">
+                    <div class="plus">
+                        +
+                    </div>
+
+                    <div class="number">
+                        <p> 500 </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p> clientes atendidos </p>
+                </div>
+            </div>
+
+            <div class="item third">
+                <div class="number-plus">
+                    <div class="plus">
+                        +
+                    </div>
+
+                    <div class="number">
+                        <p> 20 </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p> anos de experiência </p>
+                </div>
+            </div>
         </div>
     </section>
 

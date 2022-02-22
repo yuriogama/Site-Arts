@@ -4,7 +4,7 @@
 <section id="page-sobre">
     <section class="banner-principal">
         <div class="banner-desk only-desk">
-            <img src="/wp-content/uploads/2022/02/Vector-Smart-Object.png" alt="Imagem principal página">
+            <img src="/wp-content/uploads/2022/02/banner-sobre-new.png" alt="Imagem principal página">
         </div>
 
         <div class="banner-mobile only-mobile">
@@ -16,7 +16,10 @@
         <div class="container sobre">
             <div class="first text-link">
                 <div class="text">
-                    Ser um agente transformador nos negócios dos nossos clientes faz parte do nosso DNA e quando essa tranformação vem através de resultados, nos motiva ainda mais a buscar novidades e fazer sempre o melhor para a saúde da marca que estamos promovendo.
+                    <p class="title"> NÓS FAZEMOS A ARTS </p>
+                    <p class="descr">
+                        Ser um agente transformador nos negócios dos nossos clientes faz parte do nosso DNA e quando essa tranformação vem através de resultados, nos motiva ainda mais a buscar novidades e fazer sempre o melhor para a saúde da marca que estamos promovendo.
+                    </p>
                 </div>
 
                 <div class="link">
@@ -34,9 +37,9 @@
             </div>
         </div>
 
-        <div class="container somos-arts">
+        <div class="container somos-arts" style="display:none;">
             <div class="text-somos">
-                <p class="title"> Nós fazemos a </p>
+                <p class="title"> NÓS FAZEMOS A ARTS </p>
             </div>
 
             <div class="box-images">
