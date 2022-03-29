@@ -20,12 +20,8 @@ get_header();
 
 <main id="home-page">
     <section class="banner-home-principal">
-        <div class="banner-desk only-desk">
+        <div class="banner-desk banner-mobile">
             <?php dynamic_sidebar('banner-home-princpal-desk'); ?>
-        </div>
-
-        <div class="banner-mobile only-mobile">
-            <?php dynamic_sidebar('banner-home-princpal-mobile'); ?>
         </div>
     </section>
 

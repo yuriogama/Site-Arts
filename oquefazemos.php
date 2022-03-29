@@ -4,7 +4,7 @@
 <section id="page-fazemos">
     <section class="banner-principal">
         <div class="banner-desk only-desk">
-            <img src="/wp-content/uploads/2022/02/banner-oque-fazemos-new.png" alt="Imagem prinncipal página">
+            <img src="/wp-content/uploads/2022/03/banner-oque-fazemos-RAFA.png" alt="Imagem prinncipal página">
         </div>
 
         <div class="banner-mobile only-mobile">

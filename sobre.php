@@ -4,7 +4,7 @@
 <section id="page-sobre">
     <section class="banner-principal">
         <div class="banner-desk only-desk">
-            <img src="/wp-content/uploads/2022/02/banner-sobre-new.png" alt="Imagem principal página">
+            <img src="/wp-content/uploads/2022/03/banner-sobre-RAFA.png" alt="Imagem principal página">
         </div>
 
         <div class="banner-mobile only-mobile">
